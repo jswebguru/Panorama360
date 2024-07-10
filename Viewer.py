@@ -63,7 +63,7 @@ class StartPage(tk.Frame):
         #TITLE
         #titleimage
         logo = PIL.Image.open(fp="resources/360-camera.png")
-        logo = logo.resize((80 ,80),PIL.Image.ANTIALIAS)
+        logo = logo.resize((80 ,80),PIL.Image.LANCZOS)
         logoPlace = PIL.ImageTk.PhotoImage(logo)
         label1 = Label(image=logoPlace)
         label1.image = logoPlace 
