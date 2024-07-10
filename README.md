@@ -86,6 +86,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
-
-
+[product-screenshot]: resources/startpage.PNG
 [output]: output/result.jpg
